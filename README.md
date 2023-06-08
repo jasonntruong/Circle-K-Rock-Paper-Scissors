@@ -1,4 +1,4 @@
-# CircleK Rock Paper Scissors Battler
+# CircleK Rock Paper Scissors Player
 Chrome extension to battle CircleK's Rock Paper Scissors game without feeling shame when you lose
 
 [CircleK's Rock Paper Scissors](https://games.circlek.com/ca/rock-paper-prizes) is a promotion where you play 3 games of rock paper scissors daily, and if you win 1, you can redeem a prize at your local CircleK.
