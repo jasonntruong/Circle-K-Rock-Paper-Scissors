@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "rockPaperScissors",
+  "description": "Play CircleK's Rock Paper Scissor Game",
+  "version": "1.0",
+  "icons": {
+    "16": "/images/icon-16.png",
+    "48": "/images/icon-48.png",
+    "128": "/images/icon-128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "/images/icon-16.png",
+      "48": "/images/icon-48.png",
+      "128": "/images/icon-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "run_at": "document_end",
+      "matches": ["https://games.circlek.com/ca/rock-paper-prizes/play"],
+      "js": ["play.js"]
+    }
+  ]
+}
